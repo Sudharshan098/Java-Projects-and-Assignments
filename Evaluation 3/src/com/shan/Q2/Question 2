@@ -1,0 +1,21 @@
+Question 2:
+
+    Briefly explain the difference between Early and Late Binding with examples.
+    
+    Early Binding 
+          * The word binding refers to the bonding between the method body and method call. When the method body and the method call executed
+            during the Compile time is called the Early binding.
+         
+          * It's also called Static Polymorphism.
+          
+          * Early binding shows the errors in the project before compilation so we can identify the error and correct it before running it.
+          
+          * If a compiler knows which method to call up during the compilation time its called an Early binding.
+    
+    Late Binding
+          * The word binding refers to the bonding between, its method body and method call. When the method body and the method call executed
+            during the Run time its called the Late binding.
+		  
+		  *	Its also called a Dynamic Polymorphism. 
+		  
+		  * If compiler doesn't know which method to call up until the run time its called a Late binding.

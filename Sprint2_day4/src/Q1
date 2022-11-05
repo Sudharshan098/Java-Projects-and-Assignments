@@ -1,0 +1,9 @@
+Q1)  Is there any difference between creating a string with and without a new operator?  
+     Explain with an example.
+	
+	When we create a string with a new operator it will create a memory space in the heap area and then it will 
+	store it in the SCP(String Constant Pool) area and also in the object which is created inside the HEAP area.
+		***************String str1= new String("Welcome");***************
+		
+	When we create a String without the new operator it will directly store the string inside the SCP in the HEAP area.
+	     ******************String str2="Welcome";******************

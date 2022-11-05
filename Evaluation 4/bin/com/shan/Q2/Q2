@@ -1,0 +1,14 @@
+Q2) Explain about Hashcode and Equals Method.
+
+
+	Hashcode :
+   * Hashcode method is used to generate a random hashcode value to an object and it returns the interger value for the given object.
+   * It is also used to check ehether the objects entered are equal or not.
+   * it also has a contract with equals method so wherever we use hashcode equals method shouls also be overridden.
+   
+   Equals :   
+   * Equals methos is also used to check whether the inserted object in a set is equal or not.
+   * Since set does not allow duplicate element we need to check manually when we enter any user-defined datas like objects.
+   * It will override the eqquals and checks and returns the value so that using these two methods we can identify if any dulpicate elements 
+     are presenteed or not.
+   

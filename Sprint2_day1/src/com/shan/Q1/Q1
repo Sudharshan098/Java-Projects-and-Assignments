@@ -1,0 +1,12 @@
+Q1) Differentiate between static and non-static variables.
+		* Static variables are the variables that have the static keyword in front of it and,
+		  also can be accessed inside any method inside the class.
+		* Static variables can be accessed inside the main method because they will be stored on the 
+		  RAM at the time of compilation can be accessed by the CPU at the execution phase.
+		
+		* Non-static variables are the variables which is just assigned as instance variable inside the class,
+		  if we want to access the non-static variables inside the main method we need to create the obj of that instance.
+		* The non-static variables are stored in the hard disk but not in the RAM so it can not be fetched by the main method
+		  at the time of execution so we are creating an obj of the class so it will create a new space in the HEAP which will
+		  store all the non-static variables inside that and can be used by the main method through the obj
+		

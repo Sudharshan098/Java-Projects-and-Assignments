@@ -1,0 +1,23 @@
+Problem 2 : Explain the Following with an Example : 
+
+   What do you mean by the IOC ? 
+	 The Inversion Of Control is known as the IOC whenever the  dependencies objects are created in the 
+   dependennt class manually then its called as the control of the main, while the spring container creates the
+   the dependencies classes object and provides it in the required classes then its called as the IOC(Inversion of Control).
+
+
+   What is Dependency Injection ?     	 
+	The Dependency injection is process of injecting the values of the dependencies to the newly created object 
+	in the Spring Container. 
+	If the object is created using the setter its called as setter injection. It will use <property/> tag in spring container
+	If the object is created using the contructor its callled as contructor injection. It will use <constructor-args/> tag. 
+
+
+   Explain the life cycle of the Spring Bean ?
+
+	Life-cycle of a spring bean has 5 stages:
+	 1. Does not exist
+	 2. Instantiated
+	 3. Initialized
+	 4. Service
+	 5. Destroy
